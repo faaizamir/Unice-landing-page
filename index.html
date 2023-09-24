@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth box-border">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <title>Unice - Landing page</title>
+</head>
+
+<body>
+
+    <!-- Nav Bar and First Container Starts from here -->
+    <div class="container max-w-full overflow-x-hidden xl:h-screen md:h-[80vh] lg:h-screen h-[50vh]">
+
+        <!-- Background image  -->
+        <img src="assets/img/bg.png" alt="" class="lg:w-screen absolute inline-block -z-10 2xl:h-screen xl:h-screen lg:h-screen md:h-4/5 h-1/2 w-full ">
+
+        <!-- Background Rotate Animation  -->
+        <div class="bg overflow-x-hidden">
+            <img src="assets/img/backgroundrotate.png" alt="" class="hidden 2xl:block absolute w-screen h-auto -bottom-10 -z-10 animate-spin-slow ">
+        </div>
+
+        <!-- Bacground Animation images  -->
+        <img src="assets/img/1.png" alt="" class="hidden lg:block absolute top-1/2 left-20 animate-spin-normal -z-10">
+        <img src="assets/img/1.png" alt="" class="hidden lg:block absolute top-32 left-96 animate-spin-normal -z-10">
+        <img src="assets/img/2.png" alt="" class="hidden lg:block absolute left-1/3 top-1/2 animate-slow-bounce -z-10">
+        <img src="assets/img/3.png" alt="" class="hidden lg:block absolute top-[79%] left-[55%] animate-slow-bounce -z-10">
+        <img src="assets/img/4.png" alt="" class="hidden lg:block absolute lg:right-40 right-2 top-1/2 animate-spin-normal -z-10">
+
+        <!-- Navbar  -->
+        <div class="navbar mx-auto flex justify-between items-center 2xl:w-4/6 py-3 w-11/12 md:w-4/5">
+
+            <!-- Responsive Navbar Hamburger -->
+            <div class="hamburger order-2 lg:hidden">
+                <div class="line h-1 w-7 rounded bg-white my-1"></div>
+                <div class="line h-1 w-7 rounded bg-white my-1"></div>
+                <div class="line h-1 w-7 rounded bg-white my-1"></div>
+            </div>
+
+            <!-- Logo  -->
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="" class="px-3 cursor-pointer">
+            </div>
+
+            <!-- Navbar List  -->
+            <div class="list ">
+                <ul class="menu lg:flex-row lg:flex flex-col fixed lg:static left-0 z-50 lg:text-inherit text-left lg:space-y-0 space-y-4 lg:bg-none dark:bg-white bg-[url(/assets/img/screenshot-bg.png)] rounded-bl-2xl bg-cover bg-no-repeat lg:bg-transparent w-full h-10/12 lg:h-auto lg:py-5 py-20 px-4 top-0 lg:space-x-5 text-white font-Poppins transition-all hidden">
+                    <div class="burger absolute top-8 right-5 lg:hidden">
+                        <div class="line h-1 w-7 rounded bg-white my-1 rotate-45"></div>
+                        <div class="line h-1 w-7 rounded bg-white my-1 rotate-[135deg] -translate-y-2"></div>
+                    </div>
+                    <li class="lg:text-white  cursor-pointer">HOME</li>
+                    <li class="lg:text-white  cursor-pointer">BLOG</li>
+                    <li class="lg:text-white  cursor-pointer">PAGES</li>
+                    <li class="lg:text-white  cursor-pointer">ELEMENTS</li>
+                    <li class="lg:text-white  cursor-pointer">PORTFOLIO</li>
+                    <li class="lg:text-white  cursor-pointer">FEATURES</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 1st Container  -->
+        <div class="content 2xl:w-3/4 m-auto flex text-white font-Poppins justify-between 2xl:mt-24 lg:mt-14 md:mt-10">
+            
+            <!-- Container Content  -->
+            <div class="left 2xl:p-24 2xl:pt-5 lg:px-14 xl:px-20 xl:py-8 md:px-10 md:py-6 lg:static m-auto flex md:my-auto items-center p-10 text-center justify-center flex-col lg:items-baseline lg:text-left">
+                <h1 class="lg:text-5xl md:text-3xl text-xl font-bold lg:pb-8 pb-2">Powerful Services</h1>
+                <h3 class="lg:text-2xl md:text-sm font-extralight">FOR POWERFUL DESKTOP APP</h1>
+                    <p class="lg:py-10 pt-8 pb-3 md:text-sm text-xs lg:text-lg">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Magnam repellendus aliquam
+                        assumenda eius.</p>
+                    <button class="md:px-8 md:py-3 px-4 py-2 text-white border border-white bg-transparent rounded-full hover:bg-white hover:text-Primary transition-colors">Start
+                        Now</button>
+            </div>
+
+            <!-- Container Image  -->
+            <div class="right">
+                <img src="assets/img/dextop1.png" alt="" class="2xl:w-[1300px] lg:w-[1000px] xl:w-[1100px] hidden lg:block">
+            </div>
+
+            <!-- 1st Container Button to scroll down  -->
+            <div class="container hidden md:block absolute md:left-[44%] lg:left-[46%] xl:left-[48%] xl:bottom-0 2xl:bottom-20 lg:bottom-5 md:bottom-36 bottom-80 animate-btn-bounce w-fit">
+                <a href="#scroll" class="block w-fit">
+                    <img src="assets/img/down.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar and 1st Container end here  -->
+
+    <!-- Fixed button to scroll on top  -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class=" bg-[url(/assets/img/screenshot-bg.png)] bg-cover opacity-75 hidden fixed right-7 bottom-5 outline-none border-none text-white cursor-pointer w-12 h-12 rounded-full text-lg"><i class="fa fa-chevron-up"></i></button>
+    
+    <!-- 2nd Container Starts from here (Advance Features) -->
+    <div id="scroll" class="container xl:w-10/12  2xl:w-3/4 m-auto text-center mt-1 md:mt-5" data-aos="fade-up">
+
+        <!-- Heading  -->
+        <h1 class="text-Primary 2xl:text-5xl pb-8 xl:text-4xl lg:text-2xl md:text-2xl text-2xl font-Poppins font-bold">Advance Features</h1>
+
+        <!-- Paragraph -->
+        <p class="2xl:text-xl xl:text-lg lg:w-3/4 lg:m-auto md:w-3/4 md:m-auto md:text-sm text-sm w-10/12 m-auto font-Poppins"> We believe we have created the most efficient SaaS landing page for your users. Landing page with features that will convince you to use it for your SaaS business.
+        </p>
+
+        <!-- 2nd Container Content -->
+        <div class="content flex justify-center items-center gap-2 md:gap-12 m-4 md:flex-row flex-col">
+
+            <!-- Left Image  -->
+            <div class="left">
+                <img src="assets/img/content.png" alt="">
+            </div>
+
+            <!-- Right side of container  -->
+            <div class="right 2xl:mx-12">
+                <div class="flex flex-col">
+                    <div class="flex items-center p-6">
+                        <div class="left">
+                            <img src="assets/img/flex1.png" alt="">
+                        </div>
+                        <div class="right flex flex-col text-left px-5">
+                            <h1 class="text-Primary text-lg font-bold">Clean Design</h1>
+                            <p class="text-sm">Lorem Ipsum is simply dummy text of the printing and industry.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-6">
+                        <div class="left">
+                            <img src="assets/img/flex2.png" alt="">
+                        </div>
+                        <div class="right flex flex-col text-left px-5">
+                            <h1 class="text-Primary text-lg font-bold">Dedicated Support</h1>
+                            <p class="text-sm">Lorem Ipsum is simply dummy text of the printing and industry.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-6">
+                        <div class="left">
+                            <img src="assets/img/flex3.png" alt="">
+                        </div>
+                        <div class="right flex flex-col text-left px-5">
+                            <h1 class="text-Primary text-lg font-bold">Easy Customiable</h1>
+                            <p class="text-sm">Lorem Ipsum is simply dummy text of the printing and industry.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-6">
+                        <div class="left">
+                            <img src="assets/img/flex4.png" alt="">
+                        </div>
+                        <div class="right flex flex-col text-left px-5">
+                            <h1 class="text-Primary text-lg font-bold">Multiple Demo</h1>
+                            <p class="text-sm">Lorem Ipsum is simply dummy text of the printing and industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2nd Container Ends here  -->
+
+    <!-- 3rd Container Starts from here (Offers)-->
+    <div class=" bg-[url(/assets/img/quick-sol.png)] h-auto w-full md:mt-20 mt-5">
+        <div class="is-flex flex w-10/12 2xl:w-[70%] justify-center xl:gap-32 lg:gap-20 m-auto md:py-20 py-10"
+            data-aos="fade-right">
+
+            <!-- left Side of Container  -->
+            <div class="left 2xl:mt-12">
+                <h1
+                    class="2xl:text-3xl xl:text-2xl lg:text-xl md:text-2xl text-xl text-white relative font-bold font-Poppins">
+                    We Offer Quick & Powerful Business Solution</h1>
+                <div class=" bottom-0 h-0.5 2xl:w-64 xl:w-60 mx-1 mt-6 md:w-52 w-20 bg-white"></div>
+
+                <div class="list 2xl:mt-10 xl:mt-4 lg:mt-2 md:mt-5 mt-2 md:p-2 p-1 flex xl:gap-2 lg:gap-1 md:gap-3">
+                    <i class="fa fa-check-circle text-white p-2"></i>
+                    <div class="right flex flex-col lg:gap-3 gap-1 text-white font-Poppins">
+                        <h1 class="2xl:text-2xl xl:text-xl lg:text-lg text-lg">Beautiful Interface Layout</h1>
+                        <p class="2xl:text-lg xl:text-sm lg:text-xs md:text-sm text-xs">Lorem Ipsum is simply dummy text
+                            of the print- ing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="list 2xl:my-5 md:p-2 p-1 flex xl:gap-2 lg:gap-1 md:gap-3 my-4">
+                    <i class="fa fa-check-circle text-white p-2"></i>
+                    <div class="right flex flex-col lg:gap-3 gap-1 text-white font-Poppins">
+                        <h1 class="2xl:text-2xl xl:text-xl lg:text-lg text-lg">Beautiful Interface Layout</h1>
+                        <p class="2xl:text-lg xl:text-sm lg:text-xs md:text-sm text-xs">Lorem Ipsum is simply dummy text
+                            of the print- ing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="list md:p-2 p-1 flex xl:gap-2 lg:gap-1 md:gap-3">
+                    <i class="fa fa-check-circle text-white p-2"></i>
+                    <div class="right flex flex-col lg:gap-3 gap-1 text-white font-Poppins">
+                        <h1 class="2xl:text-2xl xl:text-xl lg:text-lg text-lg">Beautiful Interface Layout</h1>
+                        <p class="2xl:text-lg xl:text-sm lg:text-xs md:text-sm text-xs">Lorem Ipsum is simply dummy text
+                            of the print- ing and typesetting industry.</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Right side of container  -->
+            <div class="right">
+                <img src="assets/img/right.png" alt="" class="hidden lg:block">
+            </div>
+        </div>
+    </div>
+    <!-- 3rd Container End here  -->
+
+    <!-- 4th Container starts from here (Our Features) -->
+    <div class="content">
+
+        <!-- Top heading and para  -->
+        <div class="top flex justify-center items-center flex-col w-3/4 m-auto text-center pt-20">
+            <h1
+                class="text-Primary 2xl:text-5xl pb-8 xl:text-4xl lg:text-2xl md:text-2xl text-2xl font-Poppins font-bold">
+                Our Features</h1>
+            <p
+                class="2xl:text-xl xl:text-lg lg:w-full lg:m-auto md:w-full md:m-auto md:text-sm text-sm w-full m-auto font-Poppins xl:w-10/12 2xl:w-3/4">
+                We believe we have created the most efficient SaaS landing page for your users. Landing page
+                with features that will convince you to use it for your SaaS business.</p>
+        </div>
+
+        <!-- Content of the container  -->
+        <div class="bottom 2xl:w-3/5 xl:w-3/4 lg:w-10/12 m-auto 2xl:mt-10">
+
+            <div class="top flex flex-wrap lg:flex-nowrap justify-center">
+                <div class="box px-10 py-5 flex flex-col items-center text-center sm:w-1/2">
+                    <img src="assets/img/box1.png" alt="">
+                    <h1
+                        class="text-Primary 2xl:text-xl xl:text-xl lg:text-lg md:text-lg text-lg font-Poppins font-bold">
+                        Content Managment</h1>
+                    <p class="text-gray-500 text-base font-Poppins py-4">There are many variations of passages of Lorem
+                        Ipsum available, but the ma- jority have suffered.</p>
+                </div>
+                <div class="box px-10 py-5 flex flex-col items-center text-center sm:w-1/2">
+                    <img src="assets/img/box2.png" alt="">
+                    <h1
+                        class="text-Primary 2xl:text-xl xl:text-xl lg:text-lg md:text-lg text-lg font-Poppins font-bold">
+                        Project Analysis</h1>
+                    <p class="text-gray-500 text-base font-Poppins py-4">There are many variations of passages of Lorem
+                        Ipsum available, but the ma- jority have suffered.</p>
+                </div>
+                <div class="box px-10 py-5 flex flex-col items-center text-center sm:w-1/2">
+                    <img src="assets/img/box3.png" alt="">
+                    <h1
+                        class="text-Primary 2xl:text-xl xl:text-xl lg:text-lg md:text-lg text-lg font-Poppins font-bold">
+                        Support & Service</h1>
+                    <p class="text-gray-500 text-base font-Poppins py-4">There are many variations of passages of Lorem
+                        Ipsum available, but the ma- jority have suffered.</p>
+                </div>
+            </div>
+            <div class="bottom flex flex-wrap lg:flex-nowrap justify-center">
+                <div class="box px-10 py-5 flex flex-col items-center text-center sm:w-1/2">
+                    <img src="assets/img/box4.png" alt="">
+                    <h1
+                        class="text-Primary 2xl:text-xl xl:text-xl lg:text-lg md:text-lg text-lg font-Poppins font-bold">
+                        Project Management</h1>
+                    <p class="text-gray-500 text-base font-Poppins py-4">There are many variations of passages of Lorem
+                        Ipsum available, but the ma- jority have suffered.</p>
+                </div>
+                <div class="box px-10 py-5 flex flex-col items-center text-center sm:w-1/2">
+                    <img src="assets/img/box5.png" alt="">
+                    <h1
+                        class="text-Primary 2xl:text-xl xl:text-xl lg:text-lg md:text-lg text-lg font-Poppins font-bold">
+                        Get Free Update</h1>
+                    <p class="text-gray-500 text-base font-Poppins py-4">There are many variations of passages of Lorem
+                        Ipsum available, but the ma- jority have suffered.</p>
+                </div>
+                <div class="box px-10 py-5 flex flex-col items-center text-center sm:w-1/2">
+                    <img src="assets/img/box6.png" alt="">
+                    <h1
+                        class="text-Primary 2xl:text-xl xl:text-xl lg:text-lg md:text-lg text-lg font-Poppins font-bold">
+                        Smart Performance</h1>
+                    <p class="text-gray-500 text-base font-Poppins py-4">There are many variations of passages of Lorem
+                        Ipsum available, but the ma- jority have suffered.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 4th Container ends here  -->
+
+
+    <!-- 5th Container Starts from here (Screenshots)-->
+    <div class=" bg-[url(/assets/img/screenshot-bg.png)] h-auto w-full md:mt-20 mt-10 hidden lg:block">
+
+        <!-- Heading and Para  -->
+        <div class="top flex justify-center items-center flex-col w-3/4 m-auto text-center pt-20 text-white"
+            data-aos="fade-left">
+            <h1 class="2xl:text-5xl pb-8 xl:text-4xl lg:text-2xl md:text-2xl text-2xl font-Poppins font-bold">
+                Screen Shot</h1>
+            <p
+                class="2xl:text-xl xl:text-lg lg:w-full lg:m-auto md:w-full md:m-auto md:text-sm text-sm w-full m-auto font-Poppins xl:w-10/12 2xl:w-3/4">
+                We believe we have created the most efficient SaaS landing page for your users. Landing page
+                with features that will convince you to use it for your SaaS business.</p>
+        </div>
+
+        <!-- Screenshots  -->
+        <div class="ss w-full py-10" data-aos="fade-left">
+            <swiper-container class="mySwiper w-11/12 lg:w-10/12 space-x-2 lg:space-x-12 py-10 overflow-x-hidden"
+                watch-slides-progress="true" slides-per-view="3">
+                <swiper-slide><img src="assets/img/screen.png" class="" alt=""></swiper-slide>
+                <swiper-slide><img src="assets/img/screen.png" class="" alt=""></swiper-slide>
+                <swiper-slide><img src="assets/img/screen.png" class="" alt=""></swiper-slide>
+                <swiper-slide><img src="assets/img/screen.png" class="" alt=""></swiper-slide>
+                <swiper-slide><img src="assets/img/screen.png" class="" alt=""></swiper-slide>
+                <swiper-slide><img src="assets/img/screen.png" class="" alt=""></swiper-slide>
+                <swiper-slide><img src="assets/img/screen.png" class="" alt=""></swiper-slide>
+                <swiper-slide><img src="assets/img/screen.png" class="" alt=""></swiper-slide>
+                <swiper-slide><img src="assets/img/screen.png" class="" alt=""></swiper-slide>
+            </swiper-container>
+        </div>
+    </div>
+    <!-- 5th Container ends here  -->
+
+    <!-- 6th Container starts from here (Pricing Plan)-->
+    <div>
+        <!-- Heading and Para  -->
+        <div class="flex justify-center items-center flex-col w-3/4 m-auto text-center pt-20">
+            <h1
+                class="text-Primary 2xl:text-5xl pb-8 xl:text-4xl lg:text-2xl md:text-2xl text-2xl font-Poppins font-bold">
+                Pricing Plan</h1>
+            <p
+                class="2xl:text-xl xl:text-lg lg:w-full lg:m-auto md:w-full md:m-auto md:text-sm text-sm w-full m-auto font-Poppins xl:w-10/12 2xl:w-3/4">
+                We believe we have created the most efficient SaaS landing page for your users. Landing page
+                with features that will convince you to use it for your SaaS business.</p>
+        </div>
+
+        <!-- Pricing Plan Cards  -->
+        <swiper-container class="mySwiper 2xl:w-[45%] xl:w-8/12 h-auto py-16" pagination="true" effect="coverflow"
+            grab-cursor="true" centered-slides="true" slides-per-view="auto" coverflow-effect-rotate="50"
+            coverflow-effect-stretch="0" coverflow-effect-depth="100" coverflow-effect-modifier="1"
+            coverflow-effect-slide-shadows="true" data-aos="flip-right">
+
+            <swiper-slide class="bg-center bg-cover w-fit h-full">
+
+                <div
+                    class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-2xl shadow sm:p-8 dark:bg-white dark:border-Primary bg-[url(/assets/img/bg.png)] bg-contain bg-no-repeat">
+                    <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Free plan</h5>
+                    <div class="flex items-baseline text-gray-900 dark:text-white">
+                        <span class="text-3xl font-semibold">$</span>
+                        <span class="text-5xl font-extrabold tracking-tight">0</span>
+                        <span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+                    </div>
+                    <ul role="list" class="space-y-5 my-7">
+                        <li class="flex space-x-3 items-center">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">2 team
+                                members</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">20GB
+                                Cloud
+                                storage</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span
+                                class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Integration
+                                help</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">Sketch Files</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">API Access</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">Complete
+                                documentation</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">24×7 phone & email
+                                support</span>
+                        </li>
+                    </ul>
+                    <button type="button"
+                        class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose
+                        plan</button>
+                </div>
+            </swiper-slide>
+            <swiper-slide class="bg-center bg-cover w-80 h-full">
+
+                <div
+                    class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-2xl shadow sm:p-8 dark:bg-white dark:border-Primary bg-[url(/assets/img/bg.png)] bg-contain bg-no-repeat">
+                    <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Standard plan</h5>
+                    <div class="flex items-baseline text-gray-900 dark:text-white">
+                        <span class="text-3xl font-semibold">$</span>
+                        <span class="text-5xl font-extrabold tracking-tight">49</span>
+                        <span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+                    </div>
+                    <ul role="list" class="space-y-5 my-7">
+                        <li class="flex space-x-3 items-center">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">2 team
+                                members</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">20GB
+                                Cloud
+                                storage</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span
+                                class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Integration
+                                help</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">Sketch Files</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">API Access</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">Complete
+                                documentation</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">24×7 phone & email
+                                support</span>
+                        </li>
+                    </ul>
+                    <button type="button"
+                        class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose
+                        plan</button>
+                </div>
+
+            </swiper-slide>
+            <swiper-slide class="bg-center bg-cover w-80 h-full">
+
+                <div
+                    class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-2xl shadow sm:p-8 dark:bg-white dark:border-Primary bg-[url(/assets/img/bg.png)] bg-contain bg-no-repeat">
+                    <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Business plan</h5>
+                    <div class="flex items-baseline text-gray-900 dark:text-white">
+                        <span class="text-3xl font-semibold">$</span>
+                        <span class="text-5xl font-extrabold tracking-tight">100</span>
+                        <span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+                    </div>
+                    <ul role="list" class="space-y-5 my-7">
+                        <li class="flex space-x-3 items-center">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">2 team
+                                members</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">20GB
+                                Cloud
+                                storage</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span
+                                class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Integration
+                                help</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">Sketch Files</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">API Access</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">Complete
+                                documentation</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">24×7 phone & email
+                                support</span>
+                        </li>
+                    </ul>
+                    <button type="button"
+                        class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose
+                        plan</button>
+                </div>
+
+            </swiper-slide>
+            <swiper-slide class="bg-center bg-cover w-80 h-full">
+
+                <div
+                    class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-2xl shadow sm:p-8 dark:bg-white dark:border-Primary bg-[url(/assets/img/bg.png)] bg-contain bg-no-repeat">
+                    <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Advance plan</h5>
+                    <div class="flex items-baseline text-gray-900 dark:text-white">
+                        <span class="text-3xl font-semibold">$</span>
+                        <span class="text-5xl font-extrabold tracking-tight">149</span>
+                        <span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+                    </div>
+                    <ul role="list" class="space-y-5 my-7">
+                        <li class="flex space-x-3 items-center">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">2 team
+                                members</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">20GB
+                                Cloud
+                                storage</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span
+                                class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Integration
+                                help</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">Sketch Files</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">API Access</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">Complete
+                                documentation</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">24×7 phone & email
+                                support</span>
+                        </li>
+                    </ul>
+                    <button type="button"
+                        class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose
+                        plan</button>
+                </div>
+
+            </swiper-slide>
+            <swiper-slide class="bg-center bg-cover w-80 h-full">
+
+                <div
+                    class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-2xl shadow sm:p-8 dark:bg-white dark:border-Primary bg-[url(/assets/img/bg.png)] bg-contain bg-no-repeat">
+                    <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Friendly plan</h5>
+                    <div class="flex items-baseline text-gray-900 dark:text-white">
+                        <span class="text-3xl font-semibold">$</span>
+                        <span class="text-5xl font-extrabold tracking-tight">5</span>
+                        <span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+                    </div>
+                    <ul role="list" class="space-y-5 my-7">
+                        <li class="flex space-x-3 items-center">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">2 team
+                                members</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">20GB
+                                Cloud
+                                storage</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span
+                                class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Integration
+                                help</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">Sketch Files</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">API Access</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">Complete
+                                documentation</span>
+                        </li>
+                        <li class="flex space-x-3 line-through decoration-gray-500">
+                            <svg class="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500">24×7 phone & email
+                                support</span>
+                        </li>
+                    </ul>
+                    <button type="button"
+                        class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose
+                        plan</button>
+                </div>
+
+            </swiper-slide>
+        </swiper-container>
+    </div>
+    <!-- 6th Container end here  -->
+
+    <!-- 7th Container starts from here (Testimonials) -->
+    <div class=" bg-[url(/assets/img/bg-testimonial.png)] h-auto w-full md:mt-20 mt-10">
+        <!-- Heading and para  -->
+        <div class="top flex justify-center items-center flex-col w-3/4 m-auto text-center pt-20 text-white"
+            data-aos="fade-right">
+            <h1 class="2xl:text-5xl pb-8 xl:text-4xl lg:text-2xl md:text-2xl text-2xl font-Poppins font-bold">
+                Testimonial</h1>
+            <p
+                class="2xl:text-xl xl:text-lg lg:w-full lg:m-auto md:w-full md:m-auto md:text-sm text-sm w-full m-auto font-Poppins xl:w-10/12 2xl:w-3/4">
+                We believe we have created the most efficient SaaS landing page for your users. Landing page
+                with features that will convince you to use it for your SaaS business.</p>
+        </div>
+        <!-- Testimonial Slider  -->
+        <div class="testi  md:w-full xl:w-3/4 2xl:2/3 m-auto md:py-10" data-aos="fade-right">
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true"
+                space-between="30" centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+                <swiper-slide>
+                    <div
+                        class="2xl:w-3/4 m-auto flex gap-8 md:gap-16 py-20 justify-center items-center flex-col md:flex-row">
+                        <div class="left relative md:w-1/6 w-1/3">
+                            <img src="assets/img/pfp.png" alt="">
+                            <div
+                                class="message absolute rounded-full bg-white h-16 w-16 -top-7 md:-top-6 md:right-4 right-0 flex items-center justify-center">
+                                <img src="assets/img/message.png" alt="">
+                            </div>
+                        </div>
+                        <div class="right w-2/3 relative">
+                            <p class="text-white text-lg text-center md:text-left">When you innovate, you make
+                                mistakes.It is best to admit them quickly, & get on with improving your other
+                                innovations.</p>
+                            <img src="assets/img/left.png" alt="" class="md:absolute -left-7 -top-5 hidden md:block">
+                            <img src="assets/img/right1.png" alt=""
+                                class="md:absolute right-20 bottom-1 hidden md:block">
+                            <div
+                                class="flex space-x-2 py-4 items-center justify-center md:justify-normal flex-col sm:flex-row">
+                                <div class="flex space-x-2 py-4 items-center">
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-white"></i>
+                                </div>
+                                <h1 class="text-white md:pl-10 text-sm md:text-base"> <span class="font-bold">FAAIZ
+                                        AMIR</span> - WEB DEVELOPER
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </swiper-slide> <swiper-slide>
+                    <div
+                        class="2xl:w-3/4 m-auto flex gap-8 md:gap-16 py-20 justify-center items-center flex-col md:flex-row">
+                        <div class="left relative md:w-1/6 w-1/3">
+                            <img src="assets/img/pfp.png" alt="">
+                            <div
+                                class="message absolute rounded-full bg-white h-16 w-16 -top-7 md:-top-6 md:right-4 right-0 flex items-center justify-center">
+                                <img src="assets/img/message.png" alt="">
+                            </div>
+                        </div>
+                        <div class="right w-2/3 relative">
+                            <p class="text-white text-lg text-center md:text-left">When you innovate, you make
+                                mistakes.It is best to admit them quickly, & get on with improving your other
+                                innovations.</p>
+                            <img src="assets/img/left.png" alt="" class="md:absolute -left-7 -top-5 hidden md:block">
+                            <img src="assets/img/right1.png" alt=""
+                                class="md:absolute right-20 bottom-1 hidden md:block">
+                            <div
+                                class="flex space-x-2 py-4 items-center justify-center md:justify-normal flex-col sm:flex-row">
+                                <div class="flex space-x-2 py-4 items-center">
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-white"></i>
+                                </div>
+                                <h1 class="text-white md:pl-10 text-sm md:text-base"> <span class="font-bold">FAAIZ
+                                        AMIR</span> - WEB DEVELOPER
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </swiper-slide> <swiper-slide>
+                    <div
+                        class="2xl:w-3/4 m-auto flex gap-8 md:gap-16 py-20 justify-center items-center flex-col md:flex-row">
+                        <div class="left relative md:w-1/6 w-1/3">
+                            <img src="assets/img/pfp.png" alt="">
+                            <div
+                                class="message absolute rounded-full bg-white h-16 w-16 -top-7 md:-top-6 md:right-4 right-0 flex items-center justify-center">
+                                <img src="assets/img/message.png" alt="">
+                            </div>
+                        </div>
+                        <div class="right w-2/3 relative">
+                            <p class="text-white text-lg text-center md:text-left">When you innovate, you make
+                                mistakes.It is best to admit them quickly, & get on with improving your other
+                                innovations.</p>
+                            <img src="assets/img/left.png" alt="" class="md:absolute -left-7 -top-5 hidden md:block">
+                            <img src="assets/img/right1.png" alt=""
+                                class="md:absolute right-20 bottom-1 hidden md:block">
+                            <div
+                                class="flex space-x-2 py-4 items-center justify-center md:justify-normal flex-col sm:flex-row">
+                                <div class="flex space-x-2 py-4 items-center">
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-white"></i>
+                                </div>
+                                <h1 class="text-white md:pl-10 text-sm md:text-base"> <span class="font-bold">FAAIZ
+                                        AMIR</span> - WEB DEVELOPER
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </swiper-slide> <swiper-slide>
+                    <div
+                        class="2xl:w-3/4 m-auto flex gap-8 md:gap-16 py-20 justify-center items-center flex-col md:flex-row">
+                        <div class="left relative md:w-1/6 w-1/3">
+                            <img src="assets/img/pfp.png" alt="">
+                            <div
+                                class="message absolute rounded-full bg-white h-16 w-16 -top-7 md:-top-6 md:right-4 right-0 flex items-center justify-center">
+                                <img src="assets/img/message.png" alt="">
+                            </div>
+                        </div>
+                        <div class="right w-2/3 relative">
+                            <p class="text-white text-lg text-center md:text-left">When you innovate, you make
+                                mistakes.It is best to admit them quickly, & get on with improving your other
+                                innovations.</p>
+                            <img src="assets/img/left.png" alt="" class="md:absolute -left-7 -top-5 hidden md:block">
+                            <img src="assets/img/right1.png" alt=""
+                                class="md:absolute right-20 bottom-1 hidden md:block">
+                            <div
+                                class="flex space-x-2 py-4 items-center justify-center md:justify-normal flex-col sm:flex-row">
+                                <div class="flex space-x-2 py-4 items-center">
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-white"></i>
+                                </div>
+                                <h1 class="text-white md:pl-10 text-sm md:text-base"> <span class="font-bold">FAAIZ
+                                        AMIR</span> - WEB DEVELOPER
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </swiper-slide> <swiper-slide>
+                    <div
+                        class="2xl:w-3/4 m-auto flex gap-8 md:gap-16 py-20 justify-center items-center flex-col md:flex-row">
+                        <div class="left relative md:w-1/6 w-1/3">
+                            <img src="assets/img/pfp.png" alt="">
+                            <div
+                                class="message absolute rounded-full bg-white h-16 w-16 -top-7 md:-top-6 md:right-4 right-0 flex items-center justify-center">
+                                <img src="assets/img/message.png" alt="">
+                            </div>
+                        </div>
+                        <div class="right w-2/3 relative">
+                            <p class="text-white text-lg text-center md:text-left">When you innovate, you make
+                                mistakes.It is best to admit them quickly, & get on with improving your other
+                                innovations.</p>
+                            <img src="assets/img/left.png" alt="" class="md:absolute -left-7 -top-5 hidden md:block">
+                            <img src="assets/img/right1.png" alt=""
+                                class="md:absolute right-20 bottom-1 hidden md:block">
+                            <div
+                                class="flex space-x-2 py-4 items-center justify-center md:justify-normal flex-col sm:flex-row">
+                                <div class="flex space-x-2 py-4 items-center">
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-white"></i>
+                                </div>
+                                <h1 class="text-white md:pl-10 text-sm md:text-base"> <span class="font-bold">FAAIZ
+                                        AMIR</span> - WEB DEVELOPER
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div
+                        class="2xl:w-3/4 m-auto flex gap-8 md:gap-16 py-20 justify-center items-center flex-col md:flex-row">
+                        <div class="left relative md:w-1/6 w-1/3">
+                            <img src="assets/img/pfp.png" alt="">
+                            <div
+                                class="message absolute rounded-full bg-white h-16 w-16 -top-7 md:-top-6 md:right-4 right-0 flex items-center justify-center">
+                                <img src="assets/img/message.png" alt="">
+                            </div>
+                        </div>
+                        <div class="right w-2/3 relative">
+                            <p class="text-white text-lg text-center md:text-left">When you innovate, you make
+                                mistakes.It is best to admit them quickly, & get on with improving your other
+                                innovations.</p>
+                            <img src="assets/img/left.png" alt="" class="md:absolute -left-7 -top-5 hidden md:block">
+                            <img src="assets/img/right1.png" alt=""
+                                class="md:absolute right-20 bottom-1 hidden md:block">
+                            <div
+                                class="flex space-x-2 py-4 items-center justify-center md:justify-normal flex-col sm:flex-row">
+                                <div class="flex space-x-2 py-4 items-center">
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-yellow-500"></i>
+                                    <i class="fa fa-star text-white"></i>
+                                </div>
+                                <h1 class="text-white md:pl-10 text-sm md:text-base"> <span class="font-bold">FAAIZ
+                                        AMIR</span> - WEB DEVELOPER
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </swiper-slide>
+            </swiper-container>
+        </div>
+    </div>
+    <!-- 7th Container Ends here  -->
+
+    <!-- 8th Container Starts from here (Trusted Us) -->
+    <div class="turst mb-20">
+        <!-- Heading and Para  -->
+        <div class="top flex justify-center items-center flex-col w-3/4 m-auto text-center pt-20">
+            <h1
+                class="2xl:text-5xl pb-8 xl:text-4xl lg:text-2xl md:text-2xl text-2xl font-Poppins text-Primary font-bold">
+                Trusted Us</h1>
+            <p
+                class="2xl:text-xl xl:text-lg lg:w-full lg:m-auto md:w-full md:m-auto md:text-sm text-sm w-full m-auto font-Poppins xl:w-10/12 2xl:w-3/4">
+                We believe we have created the most efficient SaaS landing page for your users. Landing page
+                with features that will convince you to use it for your SaaS business.</p>
+        </div>
+
+        <!-- Logos  -->
+        <div class="flex w-full items-center justify-center gap-12 m-auto py-12 text-black">
+            <img src="assets/img/trust1.png" alt=""
+                class="grayscale-[100%] hover:grayscale-0 transition-all duration-300 ease-linear">
+            <img src="assets/img/trust2.png" alt=""
+                class="grayscale-[100%] hover:grayscale-0 transition-all duration-300 ease-linear hidden sm:block">
+            <img src="assets/img/trust3.png" alt=""
+                class="grayscale-[100%] hover:grayscale-0 transition-all duration-300 ease-linear hidden md:block">
+            <img src="assets/img/turst4.png" alt=""
+                class="grayscale-[100%] hover:grayscale-0 transition-all duration-300 ease-linear hidden lg:block">
+            <img src="assets/img/trust5.png" alt=""
+                class="grayscale-[100%] hover:grayscale-0 transition-all duration-300 ease-linear hidden xl:block">
+        </div>
+
+    </div>
+    <!-- 8th Container ends here  -->
+
+    <!-- Footer Starts from here  -->
+    <footer class="max-w-screen md:max-w-full md:h-[75vh] lg:max-w-full md:bg-center text-white font-Poppins bg-gradient-to-t from-[#9647db] md:bg-[url(/assets/img/footer.png)] to-[#5e57ea] bg-cover bg-no-repeat lg:bg-none bg-center lg:w-auto lg:h-auto">
+
+        
+        <div class="center 2xl:flex 2xl:items-center 2xl:justify-center 2x:w-screen overflow-x-hidden">
+
+            <!-- Footer Background image  -->
+            <img src="assets/img/footer.png" alt="" class=" lg:h-auto lg:absolute lg:block -z-10 hidden  lg:w-full">
+
+            <!-- Padding Container  -->
+            <div class="2xl:py-0 xl:pt-24 xl:pb-12 lg:py-10 md:pt-60">
+
+                <!-- Footer Main container  -->
+                <div class="2xl:w-full xl:w-4/5 lg:w-11/12 mx-auto 2xl:pt-60 xl:pt-32 lg:pt-28 flex justify-center 2xl:gap-20 xl:gap-12 lg:gap-8 md:flex-row flex-col gap-8 pt-6 p-8 lg:p-0 md:w-11/12 md:gap-10">
+
+                    <div class="space-y-4 lg:space-y-0 md:space-y-0">
+                        <h1 class="lg:hidden md:hidden  font-bold font-Poppins">About Us</h1>
+                        <div class="line w-full h-0.5 bg-gray-400 lg:hidden my-4 md:hidden"></div>
+                        <img src="assets/img/logo.png" alt="">
+                        <div class="text 2xl:py-8 xl:py-4 lg:py-2 md:py-4 space-y-0">
+
+                            <p class="text-sm lg:text-base">Unice</p>
+                            <p class="text-sm lg:text-base">324 Mall Street</p>
+                            <p class="text-sm lg:text-base">NY 10001.</p>
+                        </div>
+                        <div class="icons flex gap-5">
+                            <i class="cursor-pointer fa fa-facebook"></i>
+                            <i class="cursor-pointer fa fa-twitter"></i>
+                            <i class="cursor-pointer fa fa-google"></i>
+                        </div>
+                    </div>
+                    <div class="2xl:pl-20 xl:pl-10 lg:pl-5 ">
+                        <h1 class="2xl:text-xl xl:text-lg lg:text-lg md:text-lg font-Poppins 2xl:mb-10 xl:mb-5 lg:mb-4 md:mb-4 font-bold">
+                            Product</h1>
+
+                        <div class="line w-full h-0.5 bg-gray-400 lg:hidden my-4 md:hidden"></div>
+                        <ul class="2xl:leading-8 md:text-sm lg:text-base">
+                            <li class="cursor-pointer">Discover Features</li>
+                            <li class="cursor-pointer">CMS Integration</li>
+                            <li class="cursor-pointer">Customers</li>
+                            <li class="cursor-pointer">Free Trials And Demo</li>
+                            <li class="cursor-pointer">What Next ?</li>
+                        </ul>
+                    </div>
+                    <div class="2xl:pl-10 xl:pl-5">
+                        <h1 class="2xl:text-xl xl:text-lg lg:text-lg md:text-lg font-Poppins 2xl:mb-10 xl:mb-5 lg:mb-4 md:mb-4 font-bold">
+                            Company</h1>
+                        <div class="line w-full h-0.5 bg-gray-400 lg:hidden my-4 md:hidden"></div>
+                        <ul class="2xl:leading-8 md:text-sm lg:text-base">
+                            <li class="cursor-pointer">About Us</li>
+                            <li class="cursor-pointer">About Security</li>
+                            <li class="cursor-pointer">User Guide</li>
+                            <li class="cursor-pointer">Terms Of Srvices</li>
+                            <li class="cursor-pointer">Privact Policy</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1
+                            class="2xl:text-xl xl:text-lg lg:text-lg md:text-lg font-Poppins 2xl:mb-10 xl:mb-5 lg:mb-4 md:mb-4 font-bold ">
+                            SUBSCRIBE OUR NEWSLETTER</h1>
+
+                        <div class="line w-full h-0.5 bg-gray-400 lg:hidden my-4 md:hidden"></div>
+                        <div class="form-group relative">
+                            <input type="text" placeholder="Email address"
+                                class="py-2 2xl:my-4 xl:my-2 lg:my-2 md:my-2 my-1 border-b-2 border-white bg-transparent outline-none w-full">
+                            <a href="#">
+                                <i
+                                    class="fa fa-paper-plane absolute 2xl:top-8 xl:top-6 lg:top-5 md:top-4 right-0 lg:left-auto top-4"></i>
+                            </a>
+                        </div>
+                        <p class="leading-8 font-bold text-lg">Unice</p>
+                        <p class="text-sm"> &copy; 2023_faaiz </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Ends here  -->
+
+
+    <!-- Scripts  -->
+    <script src="./dist/card3d.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/259915cf3a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
