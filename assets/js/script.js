@@ -11,7 +11,7 @@ burger.addEventListener('click', ()=>{
     menu.classList.toggle('hidden');
 })
 
-AOS.init();
+
 
 
 window.onscroll = function() {scrollFunction()};
@@ -24,7 +24,7 @@ function scrollFunction() {
   }
 }
 
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0; 
-}
+document.querySelector('#myBtn').addEventListener('click', ()=>{
+  document.body.scrollTop = 0; 
+document.documentElement.scrollTop = 0; 
+});
