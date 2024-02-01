@@ -14,86 +14,89 @@
 </head>
 
 <body>
+    <section class="relative block mb-20 lg:mb-32 max-w-full">
+        <!-- Nav Bar and First Container Starts from here -->
+        <div class="container relative max-w-full">
+            <!-- max-w-full overflow-x-hidden xl:h-screen md:h-[80vh] lg:h-screen h-[50vh] -->
 
-    <!-- Nav Bar and First Container Starts from here -->
-    <div class="container max-w-full overflow-x-hidden xl:h-screen md:h-[80vh] lg:h-screen h-[50vh]">
+            <!-- Background image  -->
+            <img src="assets/img/bg.png" alt="" class="lg:w-screen absolute inline-block -z-10 h-full w-auto scale-125 sm:w-screen lg:scale-150">
+            <!-- 2xl:h-screen xl:h-screen lg:h-screen md:h-4/5 h-1/2  -->
 
-        <!-- Background image  -->
-        <img src="assets/img/bg.png" alt="" class="lg:w-screen absolute inline-block -z-10 2xl:h-screen xl:h-screen lg:h-screen md:h-4/5 h-1/2 w-full ">
+            <!-- Background Rotate Animation  -->
+            <div class="bg overflow-x-hidden">
+                <img src="assets/img/backgroundrotate.png" alt="" class="hidden 2xl:block absolute w-screen h-auto -bottom-10 -z-10 animate-spin-slow ">
+            </div>
 
-        <!-- Background Rotate Animation  -->
-        <div class="bg overflow-x-hidden">
-            <img src="assets/img/backgroundrotate.png" alt="" class="hidden 2xl:block absolute w-screen h-auto -bottom-10 -z-10 animate-spin-slow ">
+            <!-- Bacground Animation images  -->
+            <img src="assets/img/1.png" alt="" class="hidden lg:block absolute top-1/2 left-20 animate-spin-normal -z-10">
+            <img src="assets/img/1.png" alt="" class="hidden lg:block absolute top-32 left-96 animate-spin-normal -z-10">
+            <img src="assets/img/2.png" alt="" class="hidden lg:block absolute left-1/3 top-1/2 animate-slow-bounce -z-10">
+            <img src="assets/img/3.png" alt="" class="hidden lg:block absolute top-[79%] left-[55%] animate-slow-bounce -z-10">
+            <img src="assets/img/4.png" alt="" class="hidden lg:block absolute lg:right-40 right-2 top-1/2 animate-spin-normal -z-10">
+
+            <!-- Navbar  -->
+            <div class="navbar mx-auto flex justify-between items-center 2xl:w-4/6 py-3 w-11/12 md:w-4/5">
+
+                <!-- Responsive Navbar Hamburger -->
+                <div class="hamburger order-2 lg:hidden">
+                    <div class="line h-1 w-7 rounded bg-white my-1"></div>
+                    <div class="line h-1 w-7 rounded bg-white my-1"></div>
+                    <div class="line h-1 w-7 rounded bg-white my-1"></div>
+                </div>
+
+                <!-- Logo  -->
+                <div class="logo">
+                    <img src="assets/img/logo.png" alt="" class="px-3 cursor-pointer">
+                </div>
+
+                <!-- Navbar List  -->
+                <div class="list ">
+                    <ul class="menu lg:flex-row lg:flex flex-col fixed lg:static left-0 z-50 lg:text-inherit text-left lg:space-y-0 space-y-4 lg:bg-none dark:bg-white bg-[url(/assets/img/screenshot-bg.png)] rounded-bl-2xl bg-cover bg-no-repeat lg:bg-transparent w-full h-10/12 lg:h-auto lg:py-5 py-20 px-4 top-0 lg:space-x-5 text-white font-Poppins transition-all hidden">
+                        <div class="burger absolute top-8 right-5 lg:hidden">
+                            <div class="line h-1 w-7 rounded bg-white my-1 rotate-45"></div>
+                            <div class="line h-1 w-7 rounded bg-white my-1 rotate-[135deg] -translate-y-2"></div>
+                        </div>
+                        <li class="lg:text-white  cursor-pointer">HOME</li>
+                        <li class="lg:text-white  cursor-pointer">BLOG</li>
+                        <li class="lg:text-white  cursor-pointer">PAGES</li>
+                        <li class="lg:text-white  cursor-pointer">ELEMENTS</li>
+                        <li class="lg:text-white  cursor-pointer">PORTFOLIO</li>
+                        <li class="lg:text-white  cursor-pointer">FEATURES</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 1st Container  -->
+            <div class="content 2xl:w-3/4 m-auto flex text-white font-Poppins justify-between 2xl:mt-24 lg:mt-14 md:mt-10">
+                
+                <!-- Container Content  -->
+                <div class="left 2xl:p-24 2xl:pt-5 lg:px-14 xl:px-20 xl:py-8 md:px-10 md:py-6 lg:static m-auto flex md:my-auto items-center p-10 text-center justify-center flex-col lg:items-baseline lg:text-left">
+                    <h1 class="lg:text-5xl md:text-3xl text-xl font-bold lg:pb-8 pb-2">Powerful Services</h1>
+                    <h3 class="lg:text-2xl md:text-sm font-extralight">FOR POWERFUL DESKTOP APP</h1>
+                        <p class="lg:py-10 pt-8 pb-3 md:text-sm text-xs lg:text-lg">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Magnam repellendus aliquam
+                            assumenda eius.</p>
+                        <button class="md:px-8 md:py-3 px-4 py-2 text-white border border-white bg-transparent rounded-full hover:bg-white hover:text-Primary transition-colors">Start
+                            Now</button>
+                </div>
+
+                <!-- Container Image  -->
+                <div class="right">
+                    <img src="assets/img/dextop1.png" alt="" class="2xl:w-[1300px] lg:w-[1000px] xl:w-[1100px] hidden lg:block">
+                </div>
+
+                <!-- 1st Container Button to scroll down  -->
+                <div class="container hidden lg:block absolute left-[47%] top-[100%] animate-btn-bounce w-fit">
+                    <!-- md:left-[44%] lg:left-[46%] xl:left-[48%] xl:bottom-0 2xl:bottom-20 lg:bottom-5 md:bottom-36 bottom-80 -->
+                    <a href="#scroll" class="block w-fit">
+                        <img src="assets/img/down.png" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
-
-        <!-- Bacground Animation images  -->
-        <img src="assets/img/1.png" alt="" class="hidden lg:block absolute top-1/2 left-20 animate-spin-normal -z-10">
-        <img src="assets/img/1.png" alt="" class="hidden lg:block absolute top-32 left-96 animate-spin-normal -z-10">
-        <img src="assets/img/2.png" alt="" class="hidden lg:block absolute left-1/3 top-1/2 animate-slow-bounce -z-10">
-        <img src="assets/img/3.png" alt="" class="hidden lg:block absolute top-[79%] left-[55%] animate-slow-bounce -z-10">
-        <img src="assets/img/4.png" alt="" class="hidden lg:block absolute lg:right-40 right-2 top-1/2 animate-spin-normal -z-10">
-
-        <!-- Navbar  -->
-        <div class="navbar mx-auto flex justify-between items-center 2xl:w-4/6 py-3 w-11/12 md:w-4/5">
-
-            <!-- Responsive Navbar Hamburger -->
-            <div class="hamburger order-2 lg:hidden">
-                <div class="line h-1 w-7 rounded bg-white my-1"></div>
-                <div class="line h-1 w-7 rounded bg-white my-1"></div>
-                <div class="line h-1 w-7 rounded bg-white my-1"></div>
-            </div>
-
-            <!-- Logo  -->
-            <div class="logo">
-                <img src="assets/img/logo.png" alt="" class="px-3 cursor-pointer">
-            </div>
-
-            <!-- Navbar List  -->
-            <div class="list ">
-                <ul class="menu lg:flex-row lg:flex flex-col fixed lg:static left-0 z-50 lg:text-inherit text-left lg:space-y-0 space-y-4 lg:bg-none dark:bg-white bg-[url(/assets/img/screenshot-bg.png)] rounded-bl-2xl bg-cover bg-no-repeat lg:bg-transparent w-full h-10/12 lg:h-auto lg:py-5 py-20 px-4 top-0 lg:space-x-5 text-white font-Poppins transition-all hidden">
-                    <div class="burger absolute top-8 right-5 lg:hidden">
-                        <div class="line h-1 w-7 rounded bg-white my-1 rotate-45"></div>
-                        <div class="line h-1 w-7 rounded bg-white my-1 rotate-[135deg] -translate-y-2"></div>
-                    </div>
-                    <li class="lg:text-white  cursor-pointer">HOME</li>
-                    <li class="lg:text-white  cursor-pointer">BLOG</li>
-                    <li class="lg:text-white  cursor-pointer">PAGES</li>
-                    <li class="lg:text-white  cursor-pointer">ELEMENTS</li>
-                    <li class="lg:text-white  cursor-pointer">PORTFOLIO</li>
-                    <li class="lg:text-white  cursor-pointer">FEATURES</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- 1st Container  -->
-        <div class="content 2xl:w-3/4 m-auto flex text-white font-Poppins justify-between 2xl:mt-24 lg:mt-14 md:mt-10">
-            
-            <!-- Container Content  -->
-            <div class="left 2xl:p-24 2xl:pt-5 lg:px-14 xl:px-20 xl:py-8 md:px-10 md:py-6 lg:static m-auto flex md:my-auto items-center p-10 text-center justify-center flex-col lg:items-baseline lg:text-left">
-                <h1 class="lg:text-5xl md:text-3xl text-xl font-bold lg:pb-8 pb-2">Powerful Services</h1>
-                <h3 class="lg:text-2xl md:text-sm font-extralight">FOR POWERFUL DESKTOP APP</h1>
-                    <p class="lg:py-10 pt-8 pb-3 md:text-sm text-xs lg:text-lg">Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Magnam repellendus aliquam
-                        assumenda eius.</p>
-                    <button class="md:px-8 md:py-3 px-4 py-2 text-white border border-white bg-transparent rounded-full hover:bg-white hover:text-Primary transition-colors">Start
-                        Now</button>
-            </div>
-
-            <!-- Container Image  -->
-            <div class="right">
-                <img src="assets/img/dextop1.png" alt="" class="2xl:w-[1300px] lg:w-[1000px] xl:w-[1100px] hidden lg:block">
-            </div>
-
-            <!-- 1st Container Button to scroll down  -->
-            <div class="container hidden md:block absolute md:left-[44%] lg:left-[46%] xl:left-[48%] xl:bottom-0 2xl:bottom-20 lg:bottom-5 md:bottom-36 bottom-80 animate-btn-bounce w-fit">
-                <a href="#scroll" class="block w-fit">
-                    <img src="assets/img/down.png" alt="">
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Navbar and 1st Container end here  -->
-
+        <!-- Navbar and 1st Container end here  -->
+    </section>
     <!-- 2nd Container Starts from here (Advance Features) -->
     <div id="scroll" class="container xl:w-10/12  2xl:w-3/4 m-auto text-center mt-1 md:mt-5" data-aos="fade-up">
 
